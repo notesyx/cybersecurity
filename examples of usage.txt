@@ -1,0 +1,4 @@
+signup('test@example.com', 'password');
+console.log(login('test@example.com', 'password')); //output: Login success!
+console.log(login('test@example.com', 'wrongpassword')); //output: Login failed!
+console.log(login('wrong@example.com', 'password')); //output: User not found!
